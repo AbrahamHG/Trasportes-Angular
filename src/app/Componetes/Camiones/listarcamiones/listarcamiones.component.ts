@@ -21,7 +21,7 @@ get listCamiones(){
 }
 
 eliminarCamion(id:any){
-  
+  this.service.deleteCamion(id);
 
 }
 
